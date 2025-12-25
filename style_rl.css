@@ -1,0 +1,132 @@
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #ffeef2 0%,   
+        #fdd7e4 50%,  
+        #fbb1c8 100%  
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Inter', sans-serif;
+    color: #2b2b2b; 
+}
+
+.card {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #ffe8f0
+    );
+    padding: 26px;
+    border-radius: 18px;
+    margin-bottom: 26px;
+    border-left: 6px solid #ff4da6; 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+    color: #d81b60; 
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+}
+
+h2 {
+    color: #c2185b; 
+    font-weight: 700;
+}
+
+h3 {
+    color: #e91e63; 
+    font-weight: 700;
+}
+
+p, span, div {
+    color: #2b2b2b;
+}
+
+div[data-testid="metric-container"] {
+    background: linear-gradient(
+        145deg,
+        #fff0f6,
+        #ffe0ec
+    );
+    border-radius: 14px;
+    padding: 18px;
+    border: 1px solid #f4a9c3;
+    color: #2b2b2b;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+}
+
+.prediction-box {
+    background: linear-gradient(
+        135deg,
+        #ff4da6,
+        #ff85c1
+    );
+    color: #ffffff;
+    padding: 26px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    margin-top: 22px;
+    box-shadow: 0 14px 36px rgba(255, 77, 166, 0.45);
+}
+
+.stDataFrame {
+    background: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #f4a9c3;
+}
+
+label {
+    font-weight: 600;
+    color: #c2185b;
+}
+
+input, select, textarea {
+    background: #ffffff;
+    color: #2b2b2b;
+    border: 1px solid #f4a9c3;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #ff4da6;
+    box-shadow: 0 0 0 3px rgba(255, 77, 166, 0.25);
+}
+
+button {
+    background: linear-gradient(
+        135deg,
+        #ff4da6,
+        #ff85c1
+    );
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 22px rgba(255, 77, 166, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 36px rgba(255, 77, 166, 0.55);
+}
+p {
+    text-align: center;
+}
